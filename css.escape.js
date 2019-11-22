@@ -97,6 +97,7 @@
 	};
 
 	if (!root.CSS) {
+		delete root.CSS;
 		root.CSS = {};
 	}
 
